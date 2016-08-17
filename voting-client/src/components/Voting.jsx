@@ -8,9 +8,11 @@ export default React.createClass({
     return <div className="voting">
       {this.getPair().map(entry =>
         <button key={entry}>
-          <h1>{entry}</h1>
+          <h2>{entry}</h2>
         </button>
       )}
     </div>;
   }
 });
+/* this has a property called pair where it contains
+ the name of each of the entries */
