@@ -6,7 +6,7 @@ const doc = jsdom.jsdom('<!doctype html><html><body></body></html');
 const win = doc.defaultView;
 
 global.document = doc;
-global.window. = win;
+global.window = win;
 
 
 Object.keys(window).forEach((key) =>{
